@@ -16,6 +16,7 @@ Ubuntu 12+
 ## 使用教程
 
  git clone https://github.com/EisonMe/ss-fly
+ 
  ss-fly/ss-fly.sh -ssr
 
 
@@ -28,5 +29,9 @@ Ubuntu 12+
  日志文件路径：/var/log/shadowsocks.log
  代码安装目录：/usr/local/shadowsocks
 
-如果喜欢的话可以帮忙点个 `star` 感谢支持 
+## BBR安装
+ss-fly/ss-fly.sh -bbr
+
+sysctl net.ipv4.tcp_available_congestion_control
+
 
